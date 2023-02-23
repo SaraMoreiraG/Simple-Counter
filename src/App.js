@@ -3,6 +3,7 @@ import PropType from 'prop-types';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faClock} from '@fortawesome/free-regular-svg-icons';
+//import { Buttons } from './components/Buttons.js';
 
 function App(props) {
   return (
@@ -35,6 +36,7 @@ function App(props) {
     </div>
   );
 }
+
 App.propTypes = {
   digitSixt: PropType.number,
   digitFive: PropType.number,
